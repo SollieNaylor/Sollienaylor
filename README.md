@@ -15,23 +15,25 @@ My home labs are independent of my employer's infrastructure and data.
 | **Ansible Infrastructure Automation** | Configured an Ansible inventory and Nginx management playbook; validated SSH-based connectivity to the Ubuntu VM. | [Write-up](https://github.com/SollieNaylor/home-lab-portfolio/tree/main/ansible-nginx-automation) |
 | **Docker & Docker Compose** | Built a custom Nginx image and deployed a static web app through Compose; used loopback-only port binding and SSH tunneling. | [Write-up](https://github.com/SollieNaylor/home-lab-portfolio/tree/main/docker-containerization) |
 
+| **Terraform & Azure Networking** | Deployed nine Azure resources from Terraform, configured two subnets and NSGs, and verified zero drift after deployment. | [Write-up](https://github.com/SollieNaylor/home-lab-portfolio/tree/main/terraform-azure-network) |
+
 **[View my home lab portfolio](https://github.com/SollieNaylor/home-lab-portfolio)**
 
 ## Technical skills demonstrated
 
 - **Linux and networking:** Linux Mint, Ubuntu Server, SSH, UFW, Nginx, TCP/IP, NAT
 - **Virtualization and containers:** KVM/QEMU, libvirt, Virtual Machine Manager, Docker, Docker Compose
-- **Automation and workflow:** Ansible, YAML, Bash, Git, GitHub
+- **Automation and workflow:** Terraform, Azure CLI, Ansible, YAML, Bash, Git, GitHub
 
 ## Currently learning
 
 - Linux administration and network troubleshooting
 - Azure administration (AZ-104 preparation)
-- Terraform and infrastructure as code
+- Building on Terraform and infrastructure as code through additional deployments
 - Deployment automation, security, and observability
 
 ## How I document my work
 
 My project write-ups cover objectives, architecture, implementations, troubleshooting, and verification. I distinguish validated results from work in progress and exclude credentials, private keys, and employer data.
 
-> **Portfolio visibility:** The linked home-lab repository is currently private, so visitors cannot open these project write-ups yet. It can be made public after a secrets and screenshots review.
+> All featured projects are independent personal home labs. Infrastructure configuration and validation are documented separately from any untested production-scale claims.
